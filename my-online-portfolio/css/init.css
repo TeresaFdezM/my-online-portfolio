@@ -1,0 +1,47 @@
+* { margin: 0; padding: 0; border: 0; outline: 0;}
+html {font-size: 100%;}
+nav ul, nav ol, ul, ol { list-style: none; list-style-image: none;}
+dl, menu, ol, ul, li { margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p { font-weight: 400; font-style: normal;}
+
+/* FLEX */
+.row-flx, 
+.col-flx { display: flex;}
+.row-flx { flex-direction: row;}
+.col-flx { flex-direction: column;}
+
+.flx-w { flex-wrap: wrap;}
+
+.flx-j-s { justify-content: flex-start;}
+.flx-j-e { justify-content: flex-end;}
+.flx-j-c { justify-content: center;}
+.flx-j-b { justify-content: space-between;}
+.flx-j-a { justify-content: space-around;}
+
+.flx-a-s { align-items: flex-start;}
+.flx-a-e { align-items: flex-end;}
+.flx-a-c { align-items: center;}
+.flx-a-b { align-items: baseline;}
+.flx-a-st { align-items: stretch;}
+
+.flx-a-c-s	{ align-content: flex-start;}
+.flx-a-c-e	{ align-content: flex-end;}
+.flx-a-c-c 	{ align-content: center;}
+.flx-a-c-st	{ align-content: stretch;}
+.flx-a-c-b 	{ align-content: space-between;}
+.flx-a-c-a 	{ align-content: space-around;}
+
+/* GRIDS */
+
+.col1-12  { width: 8.333%;}
+.col2-12  { width: 16.666%;}
+.col3-12  { width: 25%;    }
+.col4-12  { width: 33.333%;}
+.col5-12  { width: 41.666%;}
+.col6-12  { width: 50%;    }
+.col7-12  { width: 58.333%;}
+.col8-12  { width: 66.666%;}
+.col9-12  { width: 75%;    }
+.col10-12 { width: 83.333%;}
+.col11-12 { width: 91.333%;}
+.col12-12 { width: 100%;} 

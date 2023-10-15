@@ -1,0 +1,65 @@
+@media all and (min-width: 1800px) {
+
+    .project-container, .projects-container { width: 70%;}
+    .container-about { height: 60vh;}
+    .title-name img { height: 48px;}
+    .close { height: 1.2rem;}
+
+    .txt-XS, .txt-XS * { font-size: 0.9rem; line-height: 1.5em; font-weight: 200;}
+    .txt-S, .txt-S * { font-size: 1rem; line-height: 1.5em; font-weight: 200;}
+    .txt-M, .txt-M * { font-size: 1.1rem; line-height: 1.5em; font-weight: 200;}
+    .txt-L, .txt-L * { font-size: 1.2rem; line-height: 1.5em; font-weight: 200;}
+    .txt-XL, .txt-XL * { font-size: 1.4rem; line-height: 1.5em; font-weight: 200;}
+    .txt-XXL, .txt-XXL * { font-size: 2rem; line-height: 2em; font-weight: 500;}
+}
+@media all and (max-width: 900px) {
+
+    .project { width: 38%;}
+}
+
+@media all and (max-width: 768px) {
+
+    /* GRIDS */
+    .images-container { flex-direction: column; justify-content: center; align-items: center;}
+    .col6-12 { width: 90%;}
+    .col8-12 { width: 90%;}
+    .col12-12 { width: 90%;}
+    .padd { padding:10px 10px};
+
+    /*  COMMON */
+    .title-name img { height: 35px;}
+    .footer-container { flex-direction: column;}
+    .footer-container a {line-height: 2.2em;}
+    .social-media-mobile li {padding-right: 15px;}
+    .social-media-mobile li:last-child{padding: 0px;}
+    .social-media-mobile {line-height: 2em;}
+    .social-media-mobile ul{ justify-content: center;}
+
+    /* HOME */
+    .project { width: 40%;}
+
+}
+
+@media all and (max-width: 668px) {
+}
+
+@media all and (max-width: 500px) {
+    /* CONTENT */
+    .project-container { width: 100%;}
+    .project { width: 100%;}
+    .padd-r-l { padding: 0px 10px};
+    .padd-t-b { padding: 10px 0px };
+    .text { margin: 20px 0px 0px 0px;}
+
+    /* TEXT */
+    .txt-S, .txt-S * { font-size: .9rem; line-height: 1.5em; font-weight: 200;}
+    .txt-M, .txt-M * { font-size: 1rem; line-height: 1.5em; font-weight: 200;}
+    .txt-L, .txt-L * { font-size: 1rem; line-height: 1.5em; font-weight: 200;}
+    .txt-XL, .txt-XL * { font-size: 1rem; line-height: 1.5em; font-weight: 200;}
+    .txt-XXL, .txt-XXL * { font-size: 1.6rem; line-height: 1.5em; font-weight: 500;}
+
+}
+
+@media all and (max-width: 380px) {
+
+}

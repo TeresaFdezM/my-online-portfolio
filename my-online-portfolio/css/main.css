@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+
+:root{--black:#141414;}
+:root{--white:#FFFEEC;}
+:root{--lavender:#BDB4FF;}
+:root{--peach:#FFB985;}
+:root{--pink:#EDB5F7;}
+:root{--yellow:#EAFC88;}
+
+/* COMMON */
+header { position: sticky; top:0px; background-color: var(--black); border-bottom: solid .8px var(--white); padding: 20px;}
+.title-name img { height: 40px;}
+
+body { min-height: 100vh; color: var(--white); font-family: Montserrat; background-color: var(--black); font-size: 20px;
+        display: flex; flex-direction: column;}
+
+a { text-decoration: none; color: var(--white);}
+
+footer { margin-top: auto; border-top: solid .8px var(--white);}
+
+.close { height: 1rem;}
+
+/* PADDING */
+.padd { padding:20px }
+.padd-r-l { padding:0px 20px }
+.padd-t-b { padding:20px 0px }
+
+/* TEXT */
+.txt-XS, .txt-XS * { font-size: 0.7rem; line-height: 1.5em; font-weight: 200;}
+.txt-S, .txt-S * { font-size: .9rem; line-height: 1.5em; font-weight: 200;}
+.txt-M, .txt-M * { font-size: 1rem; line-height: 1.5em; font-weight: 200;}
+.txt-L, .txt-L * { font-size: 1.1rem; line-height: 1.5em; font-weight: 200;}
+.txt-XL, .txt-XL * { font-size: 1.2rem; line-height: 1.5em; font-weight: 200;}
+.txt-XXL, .txt-XXL * { font-size: 1.8rem; line-height: 1.5em; font-weight: 500;}
+
+.txt-align-c { text-align: center;}
+
+/* PROJECTS */
+.project-container { width: 80%;}
+.project { width: 25%; margin: 20px;}
+.project h3 {display: none;}
+.project a { display: block; width: 100%; height: 100%;}
+.project-img { display: block; width: 100%; aspect-ratio: 1/1; object-fit: cover;}
+.titulo {padding-top: 10px;}
+
+
+/*PROJECTS PAGE*/
+
+.image-block{font-size: 0px; text-align: center;}
+.image-block img{ width: 100%; overflow: hidden;}
+.images-container{width: 100%;}
+
+.text-block { color: var(--white);}
+.text{ display:block; margin: 20px 20px 0px 20px;}
+.tags {text-transform: uppercase; margin: 0px 20px 20px 20px;}
+.tag:first-child { margin-left: 0px;}
+.tag { border-color: var(--white); color: var(--white); border-style: solid; border-width: .8px; padding: 5px; margin: 5px; text-align: center;}
+.link-button { border-color: var(--peach); color: var(--peach); background-color: var(--black) ;border-style: solid; border-width: .8px; padding: 5px 20px; 
+                margin: 10px; text-align: center; text-transform: uppercase; border-radius: 15px;}
+.link-button:hover { border-color: var(--black); color: var(--black); background-color: var(--peach); font-weight: 300;}
+ 
+/* ABOUT PAGE*/
+.info-about { max-width: 1000px; margin: auto;}
+.job-description { margin-top: 5px;}
+.description { padding: 20px 0px;}
+.email {font-weight: 500;}
