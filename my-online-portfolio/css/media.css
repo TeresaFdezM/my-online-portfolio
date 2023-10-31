@@ -37,7 +37,6 @@
 
     /* HOME */
     .project { width: 40%;}
-
 }
 
 @media all and (max-width: 668px) {
@@ -50,6 +49,7 @@
     .padd-r-l { padding: 0px 10px};
     .padd-t-b { padding: 10px 0px };
     .text { margin: 20px 0px 0px 0px;}
+    .about-img img{width: 100%;}
 
     /* TEXT */
     .txt-S, .txt-S * { font-size: .9rem; line-height: 1.5em; font-weight: 200;}
