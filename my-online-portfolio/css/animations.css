@@ -1,0 +1,11 @@
+
+@keyframes slidein {
+    0% { scale: 90%; opacity: 0.9;}
+  
+    50% { scale: 100%; opacity: 1;}
+}
+.project { view-timeline-name: --project; view-timeline-axis: block; z-index: 1;
+            animation-timeline: --project; animation-name: slidein;}
+.slide-text  { view-timeline-name: --slide-text ; view-timeline-axis: block; z-index: 1;
+            animation-timeline: --slide-text; animation-name: slidein;}
+.project-img:hover { opacity: 0; transition: 0.2s;}
